@@ -1,33 +1,17 @@
-| `0-Putchar.c` | Prints `Putchar` |
-		
-| `1-alphabet.c` | Prints the alphabet in lowercase |
-		
-| `2-print_alphabet_x10.c` | Prints 10 times the alphabet, in lowercase |
-		
-| `3-islower.c` | Checks for lowercase character |
-		
-| `4-isalpha.c` | Checks for alphabetic character |
-		
-| `5-sign.c` | Prints the sign of a number |
-		
-| `6-abs.c` | Computes the absolute value of an integer |
-		
-| `7-print_last_digit.c` | Prints the last digit of a number |
-		
-| `8-24_hours.c` | Prints every minute of the day |
-		
-| `9-times_table.c` | Prints the 9 times table, starting with 0 |
-		
-| `10-add.c` | Adds two integers and returns the result |
-		
-| `11-print_to_98.c` | Prints all natural numbers from `n` to `98` |
-		
-| `100-times_table.c` | Prints the `n` times table, starting with 0 |
-		
-| `101-natural.c` | Computes and prints the sum of all the multiplies of `3` or `5` below `1024` |
-		
-| `102-fibonacci.c` | Prints the first 50 Fibonacci numbers, starting with `1` and `2` |
-		
-| `103-fibonacci.c` | Finds and prints the sum of the even-valued terms |
-		
-| `104-fibonacci.c` | Finds and prints the first 98 Fibonacci numbers |
+#ifndef main_h
+#define main_h
+
+int _putchar(char);
+int void print_alphabet(void);
+int void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+int print_last_digit(int);
+int void jack_bauer(void);
+int void times_table(void);
+int int add(int, int);
+int void print_to_98(int n);
+
+#endif
