@@ -3,7 +3,7 @@
 /**
  * print_square- function that prints squares
  * @size: size of square
- * We can ony use _puchar to print and we are to use # to print square
+ * We can ony use _puchar to print and we are to use '#' to print square
  */
 
 void print_square(int size)
