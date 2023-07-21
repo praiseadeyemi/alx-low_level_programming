@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print square- function that prints squares
+ * print_square- function that prints squares
  * @size: size of square
  * We can ony use _puchar to print and we are to use # to print square
  */
