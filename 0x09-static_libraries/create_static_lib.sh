@@ -1,10 +1,4 @@
 #!/bin/bash
-
-#Create object code from the .c extension
-
-for file in *.c; do
-	gcc -c "$file" -o "${file%.c}.o"
-done
-
-#Create library file
-ar rcs liball.a *.o
+gcc -Wall -pedantic -Werror -Wextra -c *.c
+ar -rc liball.a *.o
+ranlib liball.a
