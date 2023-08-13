@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * str_concat - get ends of input and add together for size
- * @s1: input one to concat
- * @s2: input two to concat
+ * @s1: inputs one to concat
+ * @s2: inputs two to concat
  * Return: concat of s1 and s2
  */
 
